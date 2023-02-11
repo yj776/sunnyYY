@@ -11,10 +11,9 @@ app.use(express.urlencoded({ extended: false }))
 
 // Root
 app.get('/', (req,res) => {
-    res.status(200).json({
-        message: 'Welcome to sunnyY&Y'
+    res.send('Welcome to SunnyYY')
     })
-})
+
 
 
 

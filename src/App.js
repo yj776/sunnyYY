@@ -12,10 +12,11 @@ import SYY_logo from './SYY_logo.png';
 function App() {
   return (
     <div className="App">
+      <br></br>
         <div className='logo_h1'>
-            <h1><img src={SYY_logo} alt = "Sigh" width = '80' /> Sunny Y&Y Moving</h1>
+            <h1><img src={SYY_logo} alt = "Sigh" width = '100' /> Sunny Y&Y Moving</h1>
           </div>
-          
+      <br></br>
           <Router>
           <hr></hr>
           <nav>

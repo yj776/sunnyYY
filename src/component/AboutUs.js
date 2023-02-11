@@ -1,3 +1,5 @@
+import move3 from '../move3.png'
+
 export default function AboutUs(){
     return(
         <>
@@ -18,13 +20,18 @@ export default function AboutUs(){
             </ul>
         <br></br>
         <h3>Service</h3>
-            <div>During the move we provide FREE: </div>
+            <div><b>During the move we provide FREE: </b></div>
+            <br></br>
             <ul>
                 <li>Couch/ mattress / Furniture covers and blankets</li>
                 <li>TV/ Glass/ Piano soft covers</li>
                 <li>Dollies and Hand Trucks</li>
                 <li>Dissemble and reassemble furniture</li>
             </ul>
+        <br></br>
+        <br></br>
+        <br></br>
+            <img src={move3} alt = "Sigh" width = '800'/>
         </>
     )
 }

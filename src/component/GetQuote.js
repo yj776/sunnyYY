@@ -41,8 +41,8 @@ export default function GetQuote(){
                         />
                     <br></br>
                 {/* <input type="submit" /> */}
-                <div className="mb-2">
-                    <Button variant="primary" size="sm">Submit</Button>
+                <div>
+                    <a href="/quotes/new"><Button variant="primary" size="sm">Submit</Button></a>
                 </div>
                 
             </form>
