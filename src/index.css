@@ -5,9 +5,34 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* background-color: lightsteelblue; */
+  /* background-image: url(nycbg.png);
+  opacity: 50%;   */
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  margin-left: 3em;
+  margin-right: 3em;
+}
+
+li:hover {
+  color: red
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  margin-left: 30%;
+  margin-right: 30%;
 }
